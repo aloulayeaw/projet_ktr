@@ -1,0 +1,21 @@
+App\Entity\User:
+    admin:
+        username: user1
+        roles: ['ROLE_ADMIN']
+        password: '<encodePassword(admin)>'
+
+    user:
+        username: user2
+        roles: ['ROLE_USER']
+        password: '<encodePassword(user)>'
+
+
+
+
+
+
+
+
+
+
+

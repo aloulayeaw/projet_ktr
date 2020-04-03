@@ -1,0 +1,135 @@
+@import url(http://fonts.googleapis.com/css?family=Quicksand:300,400,700);
+@import url('https://fonts.googleapis.com/css?family=Muli:300,400,600,700');
+body {      
+    font-family: 'Quicksand', sans-serif;
+     position: relative;
+  }
+
+/* utilities */
+h2{
+   // font-family: 'Muli', sans-serif;
+}
+
+.padding-150 {
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+.padding-155 {
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+
+.bg-dark {
+    background: #212529;
+}
+.bg-jaune{
+    background: #F4B606;
+}
+.bg-cloud {
+    background: rgb(236, 240, 241);
+}
+.bg-noir {
+    background: black;
+}
+.bg-footer {
+    background-color: #E1AD6A;
+}
+
+.text-cloud {
+    color: rgb(236, 240, 241);
+}
+
+.text-dark {
+    color: #212529;
+}
+
+.h-100 {
+    height: 100px;
+}
+
+.h-250 {
+    height: 250px;
+}
+
+.paddingZero {
+    padding: 0;
+}
+
+.padding-10 {
+    padding: 10px;
+    margin-bottom: 0%;
+}
+
+.font-60 {
+    font-size: 60px;
+    text-transform: uppercase;
+}
+.font-70 {
+    font-size: 70px;
+}
+.font-80 {
+   font-size: 55px;
+}
+
+/* navbar */
+
+.packages-bg{
+    border: 1px solid black;
+}
+.packages-bg:hover{
+    border: 1px solid #212529;
+}
+.img_pub{
+    height: 200px;
+    width: 100px;
+}
+#img_sat{
+    height: 200px;
+    width: 320px;
+    float: left;
+}
+#membre{
+    height: 150px;
+    width: 120px;
+}
+#navbar {
+    transition: all 1.5s;
+    -moz-transition: all 1.5s;
+    -webkit-transition: all 1.5s;
+    -o-transition: all 1.5s;
+}
+.navbar-nav ul{
+    margin-right: 100px;
+    color: white;
+    float: right;
+}
+.navbar-nav li{
+        text-transform: uppercase;
+        color: white;
+        font-size: 17px;
+        margin-right: 33px;
+}
+.navbar-nav li a{
+    text-transform: uppercase;
+    color: white;
+}
+.navbar-nav li a:hover{
+    color: rgb(38, 54, 33);
+    color: white;
+}
+.bg-clear {
+    background: transparent;
+}
+.img_fluid{
+    height: 220px;
+}
+.fluid{
+    height: 90px;
+}
+.text{
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+    
